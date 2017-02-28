@@ -1,4 +1,4 @@
-fontkit = require 'fontkit'
+fontkit = require 'fontkit-cachekerning'
 
 class PDFFont
   @open: (document, src, family, id) ->
